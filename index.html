@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <!-- my css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <!-- navbar start -->
+    <header>
+      <nav class="navbar">
+        <div>
+          <a href="">
+            <img src="./img/Logo-RevoU-5.png" alt="profile" width="70" />
+          </a>
+        </div>
+        <div class="navbar-nav">
+          <a href="#jumbotron-welcome">Home</a>
+          <a href="#our-headquarter">Our Profile</a>
+          <a href="#profile-photo">Portfolio</a>
+          <a href="#message">Message Us</a>
+        </div>
+      </nav>
+    </header>
+    <!-- navbar end -->
+
+    <main>
+      <!-- jumbotron start -->
+      <section class="jumbotron" id="jumbotron-welcome">
+        <div class="welcome">
+          <h1>Hi,</h1>
+          <h3>Welcome to Website</h3>
+          <br />
+          <p>Ini adalah website latihan pertama</p>
+        </div>
+        <div class="profile" id="profile-photo">
+          <aside>
+            <img src="./img/foto.jpg" alt="profile" width="450" />
+          </aside>
+        </div>
+      </section>
+      <!-- jumbotron end -->
+
+      <!-- Our start -->
+      <section class="our" id="our-headquarter">
+        <div>
+          <h1>Our Headquarter</h1>
+        </div>
+        <div class="our-isi">
+          <div>
+            <img src="./img/Logo-RevoU-5.png" alt="profile" width="100" />
+            <p>Jakarta</p>
+          </div>
+          <div>
+            <img src="./img/Logo-RevoU-5.png" alt="profile" width="100" />
+            <p>Bandung</p>
+          </div>
+          <div>
+            <img src="./img/Logo-RevoU-5.png" alt="profile" width="100" />
+            <p>Surabaya</p>
+          </div>
+        </div>
+      </section>
+      <!-- Our end -->
+
+      <!-- message start -->
+      <section class="message" id="message">
+        <h2>Message Us</h2>
+        <div class="message-container">
+          <div class="form-masuk">
+            <form action="" id="message-form">
+              <table>
+                <tr>
+                  <td><label for="name">Nama:</label></td>
+                  <td><input type="text" id="name" name="name" /></td>
+                </tr>
+                <tr>
+                  <td><label for="born">Tanggal Lahir:</label></td>
+                  <td><input type="date" id="born" name="born" /></td>
+                </tr>
+                <tr>
+                  <td><label for="gender">Jenis Kelamin:</label></td>
+                  <td>
+                    <input
+                      type="radio"
+                      id="male"
+                      name="gender"
+                      value="Laki-laki"
+                    />
+                    <label for="male">Laki-laki</label>
+                    <input
+                      type="radio"
+                      id="female"
+                      name="gender"
+                      value="Perempuan"
+                    />
+                    <label for="female">Perempuan</label>
+                  </td>
+                </tr>
+                <tr>
+                  <td><label for="message">Pesan:</label></td>
+                  <td>
+                    <textarea
+                      id="message"
+                      name="message"
+                      rows="4"
+                      cols="40"
+                    ></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="6" style="text-align: center">
+                    <button type="submit">Submit</button>
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+          <div class="form-keluar">
+            <table>
+              <tr>
+                <td>Current Time:</td>
+                <td id="current-time"></td>
+              </tr>
+              <tr>
+                <td>Nama:</td>
+                <td id="output-name"></td>
+              </tr>
+              <tr>
+                <td>Tanggal Lahir:</td>
+                <td id="output-born"></td>
+              </tr>
+              <tr>
+                <td>Jenis Kelamin:</td>
+                <td id="output-gender"></td>
+              </tr>
+              <tr>
+                <td>Pesan:</td>
+                <td id="output-message"></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+      <!-- message end -->
+    </main>
+
+    <!-- Footer start -->
+    <footer>
+      <div>
+        <p>Created by Valen</p>
+      </div>
+    </footer>
+    <!-- Footer start -->
+
+    <!-- My js -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
